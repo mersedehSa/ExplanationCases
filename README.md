@@ -1,5 +1,14 @@
 ## Training 
 ## Interaction 
-1. [Disobedience](Disobedience.md)
+- [Disobedience](Disobedience.md)
+  - Conflicts 
+    - [Goal Order Conflict](Goal_Order_Conflict.md)
+    - [Multi User Conflict](Multi_User_Conflict.md)
+
+### Contextual Conditions
+
+### System Conditions
+
+
 ## validation
 ## Debugging
