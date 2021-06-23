@@ -8,31 +8,31 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 <details>
     <summary><a href="Disobedience.md"> Disobedience</a>  </summary>
     
-  ##### [Conflicts](Conflicts.md)
+ - [Conflicts](Conflicts.md)
    - [Goal Order Conflict](Goal_Order_Conflict.md)
    - [Multi User Conflict](Multi_User_Conflict.md)
 
-  ##### [Contextual Conditions](Contextual_Conditions.md)
+ - [Contextual Conditions](Contextual_Conditions.md)
 
-  ##### [System Conditions](System_Conditions.md)
+ - [System Conditions](System_Conditions.md)
   
 </details>
 
 <details>
     <summary> <a href="Failure.md">Failure</a> </summary>
   
-  ##### [System Error](System_Error.md)
+  - [System Error](System_Error.md)
   
-  ##### [User Fault](User_Fault.md)
+  - [User Fault](User_Fault.md)
   
 </details>
 
 <details>
     <summary> <a href="Context_Aware_Behaviour.md">Context Aware Behaviour</a> </summary>
     
-##### [Suggestion](Suggestion.md)
+- [Suggestion](Suggestion.md)
   
-##### [Autonomous Actions](Autonomous_Actions.md)
+- [Autonomous Actions](Autonomous_Actions.md)
 </details>
 
 # validation
