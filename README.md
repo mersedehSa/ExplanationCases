@@ -20,11 +20,12 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 </details>
 
 <details>
-    <summary> Failure </summary>
-    [more](Failure.md)
-  ### [System Error](System_Error.md)
+    <summary> <a href="Failure.md">Failure</a> </summary>
   
-  ### [User Fault](User_Fault.md)
+  [more](Failure.md)
+  #### [System Error](System_Error.md)
+  
+  #### [User Fault](User_Fault.md)
   
 </details>
 
