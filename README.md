@@ -9,7 +9,7 @@ Our taxonomy and the explanation cases can already be used to guide the requirem
 We are convinced that our findings will also help the community  to align future research on explainable systems by providing precise descriptions of explanation needs and a benchmark of explanation cases.
 
 ##### Authors:
-Mersedeh Sadeghi, Verena Klös and Andreas Vogelsang
+_Mersedeh Sadeghi, Verena Klös and Andreas Vogelsang_
 
 
 ##### References
