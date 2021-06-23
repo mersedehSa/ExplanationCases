@@ -20,8 +20,8 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 </details>
 
 <details>
-    <summary> [Failure](Failure.md) </summary>
-    
+    <summary> Failure </summary>
+    [more](Failure.md)
   ### [System Error](System_Error.md)
   
   ### [User Fault](User_Fault.md)
@@ -29,7 +29,7 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 </details>
 
 <details>
-    <summary> [Context Aware Behaviour](Context_Aware_Behaviour.md) </summary>
+    <summary> Context Aware Behaviour </summary>
     
 ## [Context Aware Behaviour](Context_Aware_Behaviour.md)
 ### [Suggestion](Suggestion.md)
