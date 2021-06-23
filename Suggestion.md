@@ -1,0 +1,5 @@
+## Suggestion:
+One of the well-studied circumstances in the literature is when an intelligent system recommends to a user a particular item, product, or action to perform. Innately, it should clarify the motivation, reason and advantage of opting for such a thing or pursuing such action.
+
+### Scenario:
+  >Alice is going to bed when she receives a notification on her smartphone from the _Smarthome Manager_ suggesting to close all the opened windows of the house. It makes Alice wonder, due to which circumstance the system suddenly has drawn the conclusion to advise her to close the windows. "Is there some security threat?'' Alice whispers! The system, however, has suggested it based on the temperature drop reported by the outside thermostats and the weather forecast API’s alarm that it is going to be a cold and rainy night ahead. 
