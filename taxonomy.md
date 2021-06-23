@@ -2,6 +2,7 @@
 <p align="center">
   <img src="taxonomy.jpg">
 </p>
+
 # Training
 
 _Training_ covers the situations when users would like to know about some concepts, operations, and mechanics of the system or a component of the system mainly to learn how to operate with the system. Accordingly, the required explanation are generic and user-independent expositions of functions and components of a system (e.g., tool documentation for tech-savvy users or user manual for ordinary users).
