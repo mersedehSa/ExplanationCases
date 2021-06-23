@@ -1,13 +1,14 @@
 
-<details>
-    <summary>  <font size="6"> Training </font></summary>
+# Training
 
 _Training_ covers the situations when users would like to know about some concepts, operations, and mechanics of the system or a component of the system mainly to learn how to operate with the system. Accordingly, the required explanation are generic and user-independent expositions of functions and components of a system (e.g., tool documentation for tech-savvy users or user manual for ordinary users).
-</details>
+
 # Interaction 
 _Interaction_ motivation covers the situations where some intelligent behaviors of the system are not understandable, desirable, or expected by the user. Hence, to steer the human-system interaction, the system should provide some explanations to clarify (e.g., the reason behind some actions or decisions), instruct (e.g., the required input or steps by users to proceed), and/or convince (e.g., that a decision or suggestion is valid, relevant and useful) the user. Like the _Training_ motivation, the primary recipients of the _Interaction_ category's explanations are end-users engaging with the system. However, here the confusion is directly linked to the course of actions made by the user, the context of the use, and the system's state. Accordingly, the required explanation must be derived per case. Furthermore, since the lack of adjusted explanation leaves the user baffled or disinterested and hinders further interactions, the explanation must be built dynamically at runtime. 
-***
-## [Disobedience](Disobedience.md)
+<details>
+    <summary> [Disobedience](Disobedience.md) </summary>
+    
+
   ### [Conflicts](Conflicts.md)
    - [Goal Order Conflict](Goal_Order_Conflict.md)
    - [Multi User Conflict](Multi_User_Conflict.md)
@@ -15,19 +16,26 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
   ### [Contextual Conditions](Contextual_Conditions.md)
 
   ### [System Conditions](System_Conditions.md)
-***
-## [Failure](Failure.md)
+  
+</details>
 
+<details>
+    <summary> [Failure](Failure.md) </summary>
+    
   ### [System Error](System_Error.md)
   
   ### [User Fault](User_Fault.md)
-***
+  
+</details>
 
+<details>
+    <summary> [Context Aware Behaviour](Context_Aware_Behaviour.md) </summary>
+    
 ## [Context Aware Behaviour](Context_Aware_Behaviour.md)
 ### [Suggestion](Suggestion.md)
   
 ### [Autonomous Actions](Autonomous_Actions.md)
-
+</details>
 
 # validation
 _Validation_ that constitutes a large portion of research on explainability, particularly in the domain of artificial intelligence and machine learning (ML). ML-based applications are opaque systems generating models (trained over some pair of input and outputs) that can predict the outputs of unseen inputs. ML algorithms, however, do not allow obtaining the reason behind such correlation of input data to the associated label. It is often argued that there is a trade-off between the performance and transparency of a model~\cite{dovsilovic2018explainable}. 
