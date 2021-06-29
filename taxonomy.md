@@ -11,10 +11,10 @@ _Training_ covers the situations when users would like to know about some concep
 _Interaction_ motivation covers the situations where some intelligent behaviors of the system are not understandable, desirable, or expected by the user <sup>[[1]](#1)</sup>. Hence, to steer the human-system interaction, the system should provide some explanations to clarify (e.g., the reason behind some actions or decisions), instruct (e.g., the required input or steps by users to proceed), and/or convince (e.g., that a decision or suggestion is valid, relevant and useful) the user <sup>[[2]](#2),[[3]](#3)</sup>. Like the _Training_ motivation, the primary recipients of the _Interaction_ category's explanations are end-users engaging with the system. However, here the confusion is directly linked to the course of actions made by the user, the context of the use, and the system's state. Accordingly, the required explanation must be derived per case. Furthermore, since the lack of adjusted explanation leaves the user baffled or disinterested and hinders further interactions, the explanation must be built dynamically at runtime. 
 <details>
     <summary><a href="Disobedience.md"> Disobedience</a>  </summary>
-    
- - [Conflicts](Conflicts.md)
-   - [Goal Order Conflict](Goal_Order_Conflict.md)
-   - [Multi User Conflict](Multi_User_Conflict.md)
+    ## Conflicts
+     ### [Goal-Order Conflict](Goal_Order_Conflict.md)
+     ### [Multi User Conflict](Multi_User_Conflict.md)
+
 
  - [Contextual Conditions](Contextual_Conditions.md)
 
