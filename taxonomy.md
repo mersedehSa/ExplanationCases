@@ -9,12 +9,22 @@ _Training_ covers the situations when users would like to know about some concep
 
 # Interaction 
 _Interaction_ motivation covers the situations where some intelligent behaviors of the system are not understandable, desirable, or expected by the user <sup>[[1]](#1)</sup>. Hence, to steer the human-system interaction, the system should provide some explanations to clarify (e.g., the reason behind some actions or decisions), instruct (e.g., the required input or steps by users to proceed), and/or convince (e.g., that a decision or suggestion is valid, relevant and useful) the user <sup>[[2]](#2),[[3]](#3)</sup>. Like the _Training_ motivation, the primary recipients of the _Interaction_ category's explanations are end-users engaging with the system. However, here the confusion is directly linked to the course of actions made by the user, the context of the use, and the system's state. Accordingly, the required explanation must be derived per case. Furthermore, since the lack of adjusted explanation leaves the user baffled or disinterested and hinders further interactions, the explanation must be built dynamically at runtime. 
-<details>
-    <summary><a href="Disobedience.md"> Disobedience</a>  </summary>
-    ## Conflicts
-     ### [Goal-Order Conflict](Goal_Order_Conflict.md)
-     ### [Multi User Conflict](Multi_User_Conflict.md)
+## Disobedience
+Most often, the situation that users attempt to command a system and the system does not respond and execute the order leaves users baffled. In many cases, however, such disobedience is indeed not simply breaking the rules, but it occurs because the system is following some other rules or goals which are not very obvious for the user at that moment, or it is incapable of accomplishing the instructions due to some constraints or system conditions. In the following, we present the more specific Disobedience cases.
+### Conflicts
+#### Goal-Order Conflicts:
+It is when the users have set up a rule that might conflict with their will at particular conditions or moments. In such cases, the system may decide to prioritize the predefined goal\footnote{Such prioritization could be based on user-defined rules or some intelligent algorithm of the system} instead of the direct command and act consequently. It hence may compel the system to avoid performing orders by the user.
 
+#### Scenario:
+  >It is 7 pm, and there is a pile of dirty dishes in the dish washer. Bob would like to wash them before dinner but the dish washer does not start after Bob had turned it on. The reason is that the \textit{Smarthome Manager} has deactivated the dish washer because Bob has set up a rule to reduce the electric consumption at peak times (usually from 6 to 9 pm).
+
+<details>
+    <summary> Goal-Order Conflicts </summary>
+ It is when the users have set up a rule that might conflict with their will at particular conditions or moments. In such cases, the system may decide to prioritize the predefined goal\footnote{Such prioritization could be based on user-defined rules or some intelligent algorithm of the system} instead of the direct command and act consequently. It hence may compel the system to avoid performing orders by the user.
+ 
+ <br> Scenario
+ 
+ >It is 7 pm, and there is a pile of dirty dishes in the dish washer. Bob would like to wash them before dinner but the dish washer does not start after Bob had turned it on. The reason is that the \textit{Smarthome Manager} has deactivated the dish washer because Bob has set up a rule to reduce the electric consumption at peak times (usually from 6 to 9 pm).
 
  - [Contextual Conditions](Contextual_Conditions.md)
 
