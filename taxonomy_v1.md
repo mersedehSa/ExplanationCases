@@ -51,9 +51,11 @@ Sometimes, the system cannot perform the user’s order because of the absence o
 </details>
 
 ## Failure  
+Another category of naturally confusing situations is when the system is not responding correctly or is operating erroneously. Hence, the user requires some explanation to understand the cause of the error and some hints to return the system back to the normal conditions.
+
 <details> 
     <summary> <b>  System Error </b> </summary>
-The next category of naturally confusing situations is when the system is not responding, generates a wrong output or is operating erroneously. Hence, the user requires some explanation to understand the cause of the error and some hints to return the system back to the normal conditions to achieve the desired output.
+<div style="text-align: justify"> The next category of naturally confusing situations is when the system is not responding, generates a wrong output or is operating erroneously. Hence, the user requires some explanation to understand the cause of the error and some hints to return the system back to the normal conditions to achieve the desired output. </div>   
 
 <br> Scenario:
 
@@ -72,7 +74,8 @@ When the system fails to perform the expected behavior or generate the sought ou
 </details>
 
 ## Context Aware Behaviour 
-    
+<div style="text-align: justify"> 
+Under this category, we analyze the situations where the intelligent behavior of the system is the source of confusion. So, users require some explanation to interpret the particular act of the system. In modern IoT systems and smart environments, the system often has a ubiquitous and comprehensive knowledge of other linked systems, environment as well as users' actions, goals, and preferences. It enables the system to learn users tastes and better recommend a suitable course of steps for the user to follow and to perform context-aware decisions and activities in various directions-- from home automation to personalized graphical user interface generation and context-aware access control for smart devices <sup>[[4]](#4),[[5]](#5)</sup>, to name a few--. Though the context-awareness of the system is meant to maximize user satisfaction and comfort, the autonomous and automated nature of decision making of the system or lack of transparency of reasons behind a particular recommendation may confound the users. Subsequently, some explanation can acquaint the user with the cause, purpose, and benefit of such suggestion and behavior of the system.  </div>   
 <details> 
     <summary> <b> Suggestion </b> </summary>
 One of the well-studied circumstances in the literature is when an intelligent system recommends to a user a particular item, product, or action to perform. Innately, it should clarify the motivation, reason and advantage of opting for such a thing or pursuing such action.
@@ -93,8 +96,8 @@ Another progressing trend in context-aware smart homes is toward reducing human 
 </details>
 
 # validation
-_Validation_ that constitutes a large portion of research on explainability, particularly in the domain of artificial intelligence and machine learning (ML). ML-based applications are opaque systems generating models (trained over some pair of input and outputs) that can predict the outputs of unseen inputs. ML algorithms, however, do not allow obtaining the reason behind such correlation of input data to the associated label. It is often argued that there is a trade-off between the performance and transparency of a model <sup>[[4]](#5)</sup>. 
-The need for explanation stems from the desire and necessity of opening the model’s black box to interpret the model and validate its decisions. According to <sup>[[5]](#5)</sup>, the explanations are required to detect any bias in the training dataset, to highlight adversarial perturbation that affects the prediction and to assure the existence of a truthful causality in the model reasoning. In contrast to the _Training_ category, here explanations are extremely case dependent and the target audience are domain experts and model developers. 
+_Validation_ that constitutes a large portion of research on explainability, particularly in the domain of artificial intelligence and machine learning (ML). ML-based applications are opaque systems generating models (trained over some pair of input and outputs) that can predict the outputs of unseen inputs. ML algorithms, however, do not allow obtaining the reason behind such correlation of input data to the associated label. It is often argued that there is a trade-off between the performance and transparency of a model <sup>[[7]](#7)</sup>. 
+The need for explanation stems from the desire and necessity of opening the model’s black box to interpret the model and validate its decisions. According to <sup>[[8]](#8)</sup>, the explanations are required to detect any bias in the training dataset, to highlight adversarial perturbation that affects the prediction and to assure the existence of a truthful causality in the model reasoning. In contrast to the _Training_ category, here explanations are extremely case dependent and the target audience are domain experts and model developers. 
 # Debugging
 _Debugging_ which is also case-dependent, is a particular situation for particular types of systems. It occurs when a system developer wants to trace back an error or fix the system itself or a product of the system by applying some changes on firmware, mechanics, or structure of the system (e.g., code debugging in IDEs). Therefore in _Debugging_ cases, as well as the _Validation_, the application of the explanations is in the post-mortem analysis of an executed program -either successfully or not-, hence the derivation and building process of such explanations do not happen at runtime.
 
@@ -109,8 +112,12 @@ It is worth highlighting that we distinguish this situation with a state where a
 
 <sup> <a id="3">[3]</a> : Hayes, Philip J., and D. Raj Reddy. "Steps toward graceful interaction in spoken and written man-machine communication." International Journal of Man-Machine Studies 19, no. 3 (1983): 231-284.s
 
-<sup> <a id="4">[4]</a> : Došilović, Filip Karlo, Mario Brčić, and Nikica Hlupić. "Explainable artificial intelligence: A survey." In 2018 41st International convention on information and communication technology, electronics and microelectronics (MIPRO), pp. 0210-0215. IEEE, 2018
+<sup> <a id="4">[4]</a>: Baresi, Luciano, and Mersedeh Sadeghi. "Fine-grained context-aware access control for smart devices." In 2018 8th International Conference on Computer Science and Information Technology (CSIT), pp. 55-61. IEEE, 2018.
 
-<sup> <a id="5">[5]</a> : Arrieta, Alejandro Barredo, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador García et al. "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI." Information Fusion 58 (2020): 82-115
+<sup> <a id="5">[5]</a> : SADEGHI, MERSEDEH. "A model-centered solution for taming the heterogeneity of smart devices." (2019).
 
 <sup> <a id="6">[6]</a>: Klös, Verena, Thomas Göthel, and Sabine Glesner. "Comprehensible and dependable self-learning self-adaptive systems." Journal of Systems Architecture 85 (2018): 28-42.
+
+<sup> <a id="7">[7]</a> : Došilović, Filip Karlo, Mario Brčić, and Nikica Hlupić. "Explainable artificial intelligence: A survey." In 2018 41st International convention on information and communication technology, electronics and microelectronics (MIPRO), pp. 0210-0215. IEEE, 2018
+
+<sup> <a id="8">[8]</a> : Arrieta, Alejandro Barredo, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador García et al. "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI." Information Fusion 58 (2020): 82-115
