@@ -16,14 +16,11 @@ Most often, the situation that users attempt to command a system and the system 
 
 * Goal-Order Conflicts: 
 It is when the users have set up a rule that might conflict with their will at particular conditions or moments. In such cases, the system may decide to prioritize the predefined goal\footnote{Such prioritization could be based on user-defined rules or some intelligent algorithm of the system} instead of the direct command and act consequently. It hence may compel the system to avoid performing orders by the user.
-
-<br> Scenario:
-
+Scenario:
 >It is 7 pm, and there is a pile of dirty dishes in the dish washer. Bob would like to wash them before dinner but the dish washer does not start after Bob had turned it on. The reason is that the \textit{Smarthome Manager} has deactivated the dish washer because Bob has set up a rule to reduce the electric consumption at peak times (usually from 6 to 9 pm).
 
 * Multi User Conflict: 
 In a smart environment with multiple users, such as the smart home or smart office, every user may have its own goals and preferences, which may conflict with other user’s actions at some conditions or moments. Hence, the \textit{Smarthome Manager} needs to resolve such a conflict by prioritizing one user’s goals or activities over the other one. In such a situation, the user whose command has been rejected in favor of other users’ goals might be confused.
-
 
 <br> Scenario:
 
