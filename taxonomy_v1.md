@@ -13,8 +13,8 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 Most often, the situation that users attempt to command a system and the system does not respond and execute the order leaves users baffled. In many cases, however, such disobedience is indeed not simply breaking the rules, but it occurs because the system is following some other rules or goals which are not very obvious for the user at that moment, or it is incapable of accomplishing the instructions due to some constraints or system conditions. In the following, we present the more specific Disobedience cases.
 <details>
 <summary> Conflicts </summary>
-<details>
-<summary> * Goal-Order Conflicts: </summary>
+ * <details>
+<summary> Goal-Order Conflicts: </summary>
 It is when the users have set up a rule that might conflict with their will at particular conditions or moments. In such cases, the system may decide to prioritize the predefined goal\footnote{Such prioritization could be based on user-defined rules or some intelligent algorithm of the system} instead of the direct command and act consequently. It hence may compel the system to avoid performing orders by the user.
 
 <br> Scenario:
