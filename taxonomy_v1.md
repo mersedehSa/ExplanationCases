@@ -1,10 +1,4 @@
-
-<p align="center">
-  <img src="taxonomy.jpg">
-</p>
-
 #### Table of Content 
-
 - [Training](#training)
 - [Interaction](#interaction)
   * [Disobedience](#disobedience)
@@ -23,6 +17,13 @@
 - [validation](#validation)
 - [Debugging](#debugging)
 - [References](#references)
+
+---
+
+<p align="center">
+  <img src="taxonomy.jpg">
+</p>
+
 
 # Training
 
