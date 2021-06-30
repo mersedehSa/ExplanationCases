@@ -1,5 +1,0 @@
-## User Fault:
-When the system fails to perform the expected behavior or generate the sought output because the user has not been following the system specification correctly, or s/he has done something wrong! In other words, in such a situation, the system has not made any mistake, but users perceive their fault as an error of the system.  
-
-### Scenario:
-> Alice is in a hurry and needs to print a document. To expedite the process, she remotely connects to the printer when she is near her office and sends the document to it via her phone. When she reaches the printer to collect the paper, she finds out the printer has been printed the document on A3 paper! She immediately sends another print command by her phone, and again the printer is printing it on A3 paper! Alice is frustrated by the erroneous functioning of the printer. However, it is happening because the printer setting on her phone is not on automatic paper tray selection, and it is following the previous configuration, which has been explicitly set to take A3 papers.
