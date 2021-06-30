@@ -2,7 +2,7 @@
 ## Cases for Explainable Software Systems: Characteristics and Examples
 A comprehensive understanding of what needs explanation is the primary step to make any system explainable. Nevertheless, only a little attention has been paid towards the characterization of system behavior that confuses users and requires explanations <sup> [[1]](#1).
  
-In this repository we present a [taxonomy](taxonomy.md) that structures needs for an explanation according to different reasons. For each leaf node in the taxonomy, we provide a scenario that describes a concrete situation in which a software system should provide an explanation. These scenarios, called explanation cases, illustrate the different demands for explanations.
+In this repository we present a [taxonomy](taxonomy_v1.md) that structures needs for an explanation according to different reasons. For each leaf node in the taxonomy, we provide a scenario that describes a concrete situation in which a software system should provide an explanation. These scenarios, called explanation cases, illustrate the different demands for explanations.
 
 Our taxonomy and the explanation cases can already be used to guide the requirements elicitation for explanation capabilities of interactive intelligent systems. By following the taxonomy, interaction scenarios of the system, even rare cases, can be analyzed to identify necessary explanations and the influence factors can help to further decide on when and how to explain.  
 
