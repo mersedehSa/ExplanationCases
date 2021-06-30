@@ -8,8 +8,18 @@
 - [Training](#training)
 - [Interaction](#interaction)
   * [Disobedience](#disobedience)
+    * [Conflict](#conf)
+    * [Contextual Conditions](#contx)
+    * [System Conditions](#sytm)
+
   * [Failure](#failure)
+    * [System Error](#sytmer) 
+    * [User Fault](#usf) 
+
   * [Context Aware Behaviour](#context-aware-behaviour)
+    * [Suggestion](#sgt) 
+    * [Autonomous Actions](#autn)
+    
 - [validation](#validation)
 - [Debugging](#debugging)
 - [References](#references)
@@ -23,7 +33,7 @@ _Interaction_ motivation covers the situations where some intelligent behaviors 
 ## Disobedience
 Most often, the situation that users attempt to command a system and the system does not respond and execute the order leaves users baffled. In many cases, however, such disobedience is indeed not simply breaking the rules, but it occurs because the system is following some other rules or goals which are not very obvious for the user at that moment, or it is incapable of accomplishing the instructions due to some constraints or system conditions. In the following, we present the more specific Disobedience cases.
 <details>
-  <summary> <b> Conflicts </b> </summary>
+  <summary> <b> <a id="conf">Conflicts </a></b> </summary>
 
 * __Goal-Order Conflicts__: It is when the users have set up a rule that might conflict with their will at particular conditions or moments. In such cases, the system may decide to prioritize the predefined goal(such prioritization could be based on user-defined rules or some intelligent algorithm of the system) instead of the direct command and act consequently. It hence may compel the system to avoid performing orders by the user.
   
@@ -41,7 +51,7 @@ In a smart environment with multiple users, such as the smart home or smart offi
 </details>
 
 <details>
-    <summary> <b> Contextual Conditions </b> </summary>
+  <summary> <b><a id="contx"> Contextual Conditions</a> </b> </summary>
 Sometimes the system chooses to avoid following a user's command due to its contextual awareness and comprehensive knowledge. The system may anticipate that the ordered action may lead to some undesirable situation or concludes the requested operation is not the best possible course of action in compliance with some rules, goals, or user preferences. 
 
 <br> Scenario:
@@ -51,7 +61,7 @@ Sometimes the system chooses to avoid following a user's command due to its cont
 </details>
 
 <details>
-    <summary> <b> System Conditions </b> </summary>
+  <summary> <b><a id="sytm">  System Conditions</a> </b> </summary>
 
 Sometimes, the system cannot perform the user’s order because of the absence of some prerequisites that involve the user’s actions to be addressed, but the user is oblivious. In this case, an explanation is necessary to bring such demands to the attention of the users.
 
@@ -65,7 +75,7 @@ Sometimes, the system cannot perform the user’s order because of the absence o
 Another category of naturally confusing situations is when the system is not responding correctly or is operating erroneously. Hence, the user requires some explanation to understand the cause of the error and some hints to return the system back to the normal conditions.
 
 <details> 
-    <summary> <b>  System Error </b> </summary>
+  <summary> <b> <a id="sytmer"> System Error </a> </b> </summary>
 <div style="text-align: justify"> The next category of naturally confusing situations is when the system is not responding, generates a wrong output or is operating erroneously. Hence, the user requires some explanation to understand the cause of the error and some hints to return the system back to the normal conditions to achieve the desired output. </div>   
 
 <br> Scenario:
@@ -75,7 +85,7 @@ Another category of naturally confusing situations is when the system is not res
 </details>
 
 <details> 
-    <summary> <b> User Fault </b> </summary>
+  <summary> <b> <a id="usf"> User Fault </a> </b> </summary>
 When the system fails to perform the expected behavior or generate the sought output because the user has not been following the system specification correctly, or s/he has done something wrong! In other words, in such a situation, the system has not made any mistake, but users perceive their fault as an error of the system.  
 
 <br> Scenario:
@@ -89,7 +99,7 @@ Under this category, we analyze the situations where the intelligent behavior of
 
 
 <details> 
-    <summary> <b> Suggestion </b> </summary>
+  <summary> <b> <a id="sgt"> Suggestion </a> </b> </summary>
 One of the well-studied circumstances in the literature is when an intelligent system recommends to a user a particular item, product, or action to perform. Innately, it should clarify the motivation, reason and advantage of opting for such a thing or pursuing such action.
 
 <br> Scenario:
@@ -98,7 +108,7 @@ One of the well-studied circumstances in the literature is when an intelligent s
  
 </details> 
 <details> 
-  <summary> <b> Autonomous Actions </b> </summary>
+  <summary> <b><a id="autn"> Autonomous Actions </a> </b> </summary>
 Another progressing trend in context-aware smart homes is toward reducing human assistance and making systems more autonomous. In this direction, for example, a self-adaptive system continuously monitors itself, the user, and the environment to learn and optimize rules which let the system autonomously adapt itself to the changing environment and user preferences and activities <sup>[[6]](#6) </sup>. As a result, the system gradually evolves, behaves more intelligently, and independently acts or decides upon something without waiting for users' permissions. Hence, a user is confronted with some already performed actions (or the consequence of performing such actions). Without some explanations, the activity itself, or its underlying cause and benefit might not be understandable for the user.
 
 <br> Scenario:
