@@ -9,8 +9,6 @@
 - [Interaction](#interaction)
   * [Disobedience](#disobedience)
     * [Conflict](#conf)
-      + [Goal Order Conflict](#goal_or)
-      + [Multi User Conflict](#mltiu)
     * [Contextual Conditions](#contx)
     * [System Conditions](#sytm)
 
